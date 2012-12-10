@@ -11,7 +11,10 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    R-devel
+BuildRequires:    Rmath-devel
+BuildRequires:    texlive-collection-latex 
+BuildRequires:    pkgconfig(lapack)
 
 %description
 These data sets are taken from the book Introduction to Linear Regression
@@ -41,3 +44,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.25-1
++ Revision: 775357
+- Import R-MPV
+- Import R-MPV
+
