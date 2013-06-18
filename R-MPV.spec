@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.25
-Release:          1
+Release:          2
 Summary:          Data Sets from Montgomery, Peck and Vining's Book
 Group:            Sciences/Mathematics
 License:          Unlimited
