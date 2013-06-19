@@ -2,7 +2,7 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          1.25
+Version:          1.27
 Release:          2
 Summary:          Data Sets from Montgomery, Peck and Vining's Book
 Group:            Sciences/Mathematics
